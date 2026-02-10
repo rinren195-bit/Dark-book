@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Catatan Pribadi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Login Catatan Pribadi</h1>
+    </header>
+
+    <section id="login-section">
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <br>
+            <button type="submit">Masuk</button>
+        </form>
+        <p id="error-message" style="color: red; display: none;">Password salah, coba lagi!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Catatan Pribadi</p>
+    </footer>
+
+    <audio id="error-sound" src="seram-sound.mp3" preload="auto"></audio> <!-- File suara seram -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
